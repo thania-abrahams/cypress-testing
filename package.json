@@ -1,0 +1,20 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "scriptsComments": "If you want to set specific baseUrls for different tests you can do that here using --config baseUrl=baseUrl",
+    "cypress:open": "cypress open --e2e --browser chrome"
+  },
+  "devDependencies": {
+    "@4tw/cypress-drag-drop": "^2.2.2",
+    "@testing-library/cypress": "^8.0.7",
+    "cy-verify-downloads": "^0.1.11",
+    "cypress": "^11.2.0",
+    "cypress-file-upload": "^5.0.8",
+    "cypress-real-events": "^1.7.4",
+    "mocha": "^10.1.0",
+    "mochawesome": "^7.1.3"
+  }
+}
