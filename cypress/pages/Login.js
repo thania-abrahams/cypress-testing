@@ -23,7 +23,7 @@ class Login extends Main {
   }
 
   visit() {
-    cy.visit(`${Cypress.env("Demo")}/login`);
+    cy.visit(`${Cypress.env("demo")}/login`);
   }
 
   submitLogin(username, password) {

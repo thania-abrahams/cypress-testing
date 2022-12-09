@@ -3,18 +3,26 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scriptsComments": {
+    "specific baseUrls": "If you want to set specific baseUrls for different tests you can do that here using --config baseUrl=baseUrl",
+    "running specific suites": "cypress run --spec cypress/e2e/regression/*.js"
+  },
   "scripts": {
-    "scriptsComments": "If you want to set specific baseUrls for different tests you can do that here using --config baseUrl=baseUrl",
-    "cypress:open": "cypress open --e2e --browser chrome"
+    "cypress:open": "cypress open --e2e --browser chrome",
+    "cypress:run": "cypress run --e2e --browser chrome",
+    "cypress:mobile": "cypress open --e2e --browser chrome --config baseUrl=http://uitestingplayground.com,viewportWidth=320"
   },
   "devDependencies": {
     "@4tw/cypress-drag-drop": "^2.2.2",
+    "@fakerjs/faker": "^3.0.0",
     "@testing-library/cypress": "^8.0.7",
     "cy-verify-downloads": "^0.1.11",
     "cypress": "^11.2.0",
     "cypress-file-upload": "^5.0.8",
+    "cypress-mochawesome-reporter": "^3.2.3",
     "cypress-real-events": "^1.7.4",
     "mocha": "^10.1.0",
-    "mochawesome": "^7.1.3"
+    "mochawesome": "^7.1.3",
+    "mysql": "mysqljs/mysql"
   }
 }
