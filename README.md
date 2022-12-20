@@ -53,12 +53,9 @@ You can use fixtures to store sets of data ie. json objects, images, mp3s etc. a
 ### cypress/pages
 
 ### cypress/reports
-
-### cypress/screenshots
+Reports are where the Mocha Awesome reports are stored, videos and screenshots should this flag be set to TRUE, will be under the Screenshots and Videos directories.
 
 ### cypress/support
-
-### cypress/videos
 
 ### cypress.config.js
 
