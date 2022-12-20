@@ -17,7 +17,7 @@ I created this project to learn and also to be used as scaffolding when writing 
 ### cypress/e2e/case-studies.cy
 
 We begin with an e2e test using the Cura Make An Appointment page, that takes you through various ui interactions to logging in and submitting a form
-I then cover various common use cases such as tricky checkboxes, multiple checkboxes, how to specify viewports, how to create a viewport hybrid suite,
+I then cover various common use cases such as tricky checkboxes, multiple checkboxes, how to specify viewports, how to create a viewport hybrid suite, how to test new tabs, api interceptions, testing for broken images, iframes, WYSISWYG editors etc. all found in <p bold>cypress/e2e/case-studies.cy</p>
 
 The package.json file has a list of additional plugins that I installed to have certain test suites run
 The cypress.config
