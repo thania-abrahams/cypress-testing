@@ -13,18 +13,36 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
 
-      // verify download import
+      //----- verify download import
       on("task", verifyDownloadTasks);
+      //-----
 
-      // for the mochawesome reporter
+      //----- for the mochawesome reporter
       require("cypress-mochawesome-reporter/plugin")(on);
+      //-----
 
-      // mysql implemenation and faker
+      //----- mysql implemenation and faker
       on("task", {
         queryDb: (query) => {
           return queryTestDb(query, config);
         },
       });
+      //-----
+
+      //----- faker
+      on("task", {
+        freshUser() {
+          let user = {
+            username: faker.name.firstName(),
+            email: faker.internet.email(),
+            password: faker.internet.password(),
+            registeredAt: faker.date.past(),
+            vehicle: faker.vehicle.vehicle(),
+          };
+          return user;
+        },
+      });
+      //-----
     },
     env: {
       angular: "https://www.globalsqa.com",

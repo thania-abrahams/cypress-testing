@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "@4tw/cypress-drag-drop": "^2.2.2",
-    "@fakerjs/faker": "^3.0.0",
+    "@faker-js/faker": "^7.6.0",
     "@testing-library/cypress": "^8.0.7",
     "cy-verify-downloads": "^0.1.11",
     "cypress": "^11.2.0",

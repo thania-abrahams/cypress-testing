@@ -674,7 +674,7 @@ describe("Hybrid Suite", () => {
 
 const nowTimeStamp = new Date(Date.UTC(2017, 2, 14)).getTime();
 
-describe("Clock Test", () => {
+describe("Clock Demo", () => {
   beforeEach(function () {
     cy.log("date timestamp: ", nowTimeStamp);
 
@@ -696,6 +696,27 @@ describe("Clock Test", () => {
       cy.tick(10000); // 10 seconds passed
 
       cy.get("#tick-div").click().should("have.text", "1489449610");
+    });
+  });
+});
+
+describe("Docket Post Demo", () => {
+  it("random data", () => {
+    cy.task("freshUser").then((object) => {
+      cy.log("Data: ", object);
+    });
+  });
+});
+
+describe.only("API Testing Demo", () => {
+  it("get an authorization token from the API account", () => {
+    cy.request("POST", `${Cypress.env("demo")}/Account/v1/GenerateToken`, {
+      userName: "test",
+      password: "Test123*",
+    }).then((response) => {
+      const token = response.body.token;
+
+      cy.wrap(token).as("token");
     });
   });
 });
