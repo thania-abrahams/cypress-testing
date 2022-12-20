@@ -1,3 +1,11 @@
+.markdown-body {
+  --markdown-radius: 3px;
+  --markdown-font: Papyrus, serif;
+  --markdown-text: #333;
+  --markdown-title: hotpink;
+  --markdown-line-height: 2;
+}
+
 # Starter Project for Writing Test Suites Using Cypress
 
 I created this project to be used as scaffolding when writing tests for use cases that I deemed useful. The project utilizes various public testing platforms for redundancy, namely:
@@ -44,7 +52,7 @@ A few of these test suites require external plugins to run, you can find them in
 
 
 ### cypress/fixtures/data.json
-You can use fixtures to store sets of data ie. json objects, images, mp3s etc. and than access them when needed
+You can use fixtures to store sets of data ie. json objects, images, mp3s etc. and than access them when needed. Below is an example of using a fixture to intercept an API request:
 
 <div align="center">
   <img src="readme-images/fixtures.png" width="500" title="case studies list">
