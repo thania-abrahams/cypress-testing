@@ -29,4 +29,20 @@ I then cover various common use cases such as tricky checkboxes, multiple checkb
   <img src="readme-images/test-suites.png" width="500" title="case studies list">
 </div>
 
+### cypress/e2e/case-studies.cy
+
+### cypress/fixtures/data.json
+
+### cypress/pages
+
+### cypress/reports
+
+### cypress/screenshots
+
+### cypress/support
+
+### cypress/videos
+
 ### cypress.config.js
+
+### package.json
