@@ -19,7 +19,7 @@ I created this project to be used as scaffolding when writing tests for use case
 </ul>
 
 ### cypress/e2e/case-studies.cy
--------------------------------
+===============================
 
 We begin with an e2e test using the "Cura Make An Appointment" page, that takes you through various ui interactions from logging in to submitting a form.
 I then cover various common use cases such as:
