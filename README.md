@@ -35,7 +35,7 @@ I then cover various common use cases such as:
 10. Date pickers etc.
 
 <div align="center">
-  <img src="https://github.com/thania-abrahams/cypress-testing/blob/main/readme-images/case-studies-list.gif" width="250" height="250" title="case studies list" />
+  <img src="https://github.com/thania-abrahams/cypress-testing/blob/main/readme-images/case-studies-list.gif" width="500" title="case studies list" />
 </div>
 
 A few of these test suites require external plugins to run, you can find them inside of the "package.json" file.
