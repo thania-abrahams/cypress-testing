@@ -48,10 +48,13 @@ You can use fixtures to store sets of data ie. json objects, images, mp3s etc. a
 </div>
 
 ### cypress/pages
+The Pages directory makes use of the Page Object Model wherein you can create classes that contain all relevant elements that are relevant to a page. For eg. the Login Page will include access to ui elements, methods and data sets:
 
 <div align="center">
   <img src="readme-images/page-models.png" width="500" title="page object model">
 </div>
+
+In opposition to the Page Object Model one can make use of Custom Commands, it is really just a matter of preference.
 
 <div align="center">
   <img src="readme-images/page-models.png" width="500" title="page object model">
