@@ -37,7 +37,7 @@ I then cover various common use cases such as:
 A few of these test suites require external plugins to run, you can find them inside of the "package.json" file.
 
 <div align="center">
-  <img src="readme-images/test-suites.png" width="500" title="case studies list">
+  <img src="readme-images/case-studies-list.gif" width="500" title="case studies list">
 </div>
 
 
