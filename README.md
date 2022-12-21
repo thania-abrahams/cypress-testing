@@ -13,9 +13,7 @@ I created this project to be used as scaffolding when writing tests for use case
   <li>cypress/fixtures/data.json</li>
   <li>cypress/pages</li>
   <li>cypress/reports</li>
-  <li>cypress/screenshots</li>
   <li>cypress/support</li>
-  <li>cypress/videos</li>
   <li>cypress.config.js</li>
   <li>package.json</li>
 </ul>
