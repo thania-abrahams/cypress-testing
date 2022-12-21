@@ -700,7 +700,7 @@ describe("Clock Demo", () => {
   });
 });
 
-describe("Docket Post Demo", () => {
+describe("Data Post Demo", () => {
   it("random data", () => {
     cy.task("freshUser").then((object) => {
       cy.log("Data: ", object);
