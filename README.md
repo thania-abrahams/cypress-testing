@@ -1,11 +1,3 @@
-.markdown-body {
-  --markdown-radius: 3px;
-  --markdown-font: Papyrus, serif;
-  --markdown-text: #333;
-  --markdown-title: hotpink;
-  --markdown-line-height: 2;
-}
-
 # Starter Project for Writing Test Suites Using Cypress
 
 I created this project to be used as scaffolding when writing tests for use cases that I deemed useful. The project utilizes various public testing platforms for redundancy, namely:
@@ -30,14 +22,14 @@ I created this project to be used as scaffolding when writing tests for use case
 
 ### cypress/e2e/case-studies.cy
 
-We begin with an e2e test using the "Cura Make An Appointment" page, that takes you through various ui interactions to logging in and submitting a form
+We begin with an e2e test using the "Cura Make An Appointment" page, that takes you through various ui interactions from logging in to submitting a form.
 I then cover various common use cases such as:
 
 1. Tricks with checkboxes
 2. Viewport specification and responsiveness
 3. API interceptions
 4. testing for broken images
-5. iFrames and WYSISWYG editors
+5. iFrames and WYSIWYG editors
 6. Database testing
 7. API testing
 8. Future assertion tests
