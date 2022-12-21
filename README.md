@@ -21,6 +21,7 @@ I created this project to be used as scaffolding when writing tests for use case
 ### cypress/e2e/case-studies.cy
 
 ```
+
 We begin with an e2e test using the "Cura Make An Appointment" page, that takes you through various ui interactions from logging in to submitting a form.
 I then cover various common use cases such as:
 
@@ -44,7 +45,8 @@ A few of these test suites require external plugins to run, you can find them in
 ```
 
 ### cypress/fixtures/data.json
-------------------------------
+
+```
 
 You can use fixtures to store sets of data ie. json objects, images, mp3s etc. and than access them when needed. Below is an example of using a fixture to intercept an API request:
   
@@ -67,10 +69,15 @@ In opposition to the Page Object Model one can make use of Custom Commands, it i
   <img src="readme-images/custom-commands.png" width="500" title="custom commands">
 </div>
 
+```
+
 ### cypress/reports
--------------------
+
+```
 
 Reports are where the Mocha Awesome reports are stored, videos and screenshots should this flag be set to TRUE, will be under the Screenshots and Videos directories.
+
+```
 
 ### cypress/support
 -------------------
