@@ -40,7 +40,7 @@ A few of these test suites require external plugins to run, you can find them in
 You can use fixtures to store sets of data ie. json objects, images, mp3s etc. and than access them when needed. Below is an example of using a fixture to intercept an API request:
   
 <div align="center">
-  ![ ](https://github.com/thania-abrahams/cypress-testing/blob/main/readme-images/case-studies-list.gif)
+  <img src="readme-images/fixtures.png" width="500" title="fixture">
 </div>
 
 ### cypress/pages
