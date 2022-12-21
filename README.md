@@ -34,11 +34,11 @@ I then cover various common use cases such as:
 9. Drag and drop
 10. Date pickers etc.
 
+A few of these test suites require external plugins to run, you can find them inside of the "package.json" file.
+
 <div align="center">
   <img src="https://github.com/thania-abrahams/cypress-testing/blob/main/readme-images/case-studies-list.gif" width="750" title="case studies list" />
 </div>
-
-A few of these test suites require external plugins to run, you can find them inside of the "package.json" file.
 
 ### cypress/fixtures/data.json
 You can use fixtures to store sets of data ie. json objects, images, mp3s etc. and than access them when needed. Below is an example of using a fixture to intercept an API request:
