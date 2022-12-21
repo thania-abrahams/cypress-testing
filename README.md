@@ -34,9 +34,7 @@ I then cover various common use cases such as:
 9. Drag and drop
 10. Date pickers etc.
 
-<div align="center">
   ![](https://github.com/thania-abrahams/cypress-testing/blob/main/readme-images/case-studies-list.gif)
-</div>
 
 A few of these test suites require external plugins to run, you can find them inside of the "package.json" file.
 
