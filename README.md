@@ -19,8 +19,8 @@ I created this project to be used as scaffolding when writing tests for use case
 </ul>
 
 ### cypress/e2e/case-studies.cy
-======================
 
+```
 We begin with an e2e test using the "Cura Make An Appointment" page, that takes you through various ui interactions from logging in to submitting a form.
 I then cover various common use cases such as:
 
@@ -40,6 +40,8 @@ A few of these test suites require external plugins to run, you can find them in
 <div align="center">
   <img src="https://github.com/thania-abrahams/cypress-testing/blob/main/readme-images/case-studies-list.gif" width="750" title="case studies list" />
 </div>
+
+```
 
 ### cypress/fixtures/data.json
 ------------------------------
