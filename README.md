@@ -45,10 +45,18 @@ A few of these test suites require external plugins to run, you can find them in
 You can use fixtures to store sets of data ie. json objects, images, mp3s etc. and than access them when needed. Below is an example of using a fixture to intercept an API request:
 
 <div align="center">
-  <img src="readme-images/fixtures.png" width="500" title="case studies list">
+  <img src="readme-images/fixtures.png" width="500" title="fixture">
 </div>
 
 ### cypress/pages
+
+<div align="center">
+  <img src="readme-images/page-models.png" width="500" title="page object model">
+</div>
+
+<div align="center">
+  <img src="readme-images/page-models.png" width="500" title="page object model">
+</div>
 
 ### cypress/reports
 Reports are where the Mocha Awesome reports are stored, videos and screenshots should this flag be set to TRUE, will be under the Screenshots and Videos directories.
