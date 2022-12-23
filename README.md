@@ -37,13 +37,13 @@ I then cover various common use cases such as:
 9. Drag and drop
 10. Date pickers etc.
 ```
-
-
+<br />
+<br />
 <div align="center">
   <img src="https://github.com/thania-abrahams/cypress-testing/blob/main/readme-images/case-studies-list.gif" width="750" title="case studies list" />
 </div>
-
-
+<br />
+<br />
 A few of these test suites require external plugins to run, you can find them inside of the "package.json" file.
 
 
