@@ -6,6 +6,7 @@ I created this project to be used as scaffolding when writing tests for use case
   <img src="readme-images/test-sites.png" width="500" title="test sites list">
 </div>
 
+
 ## Review of Principal Directories and/or Files
 
 <ul>
@@ -18,13 +19,13 @@ I created this project to be used as scaffolding when writing tests for use case
   <li>package.json</li>
 </ul>
 
-### cypress/e2e/case-studies.cy
 
-```
+### cypress/e2e/case-studies.cy
 
 We begin with an e2e test using the "Cura Make An Appointment" page, that takes you through various ui interactions from logging in to submitting a form.
 I then cover various common use cases such as:
 
+```
 1. Tricks with checkboxes
 2. Viewport specification and responsiveness
 3. API interceptions
@@ -35,26 +36,24 @@ I then cover various common use cases such as:
 8. Future assertion tests
 9. Drag and drop
 10. Date pickers etc.
-
-A few of these test suites require external plugins to run, you can find them inside of the "package.json" file.
-
 ```
 
+Please see video below:
 <div align="center">
   <img src="https://github.com/thania-abrahams/cypress-testing/blob/main/readme-images/case-studies-list.gif" width="750" title="case studies list" />
 </div>
 
+A few of these test suites require external plugins to run, you can find them inside of the "package.json" file.
 
 
 ### cypress/fixtures/data.json
-
-```
 
 You can use fixtures to store sets of data ie. json objects, images, mp3s etc. and than access them when needed. Below is an example of using a fixture to intercept an API request:
   
 <div align="center">
   <img src="readme-images/fixtures.png" width="500" title="fixture">
 </div>
+
 
 ### cypress/pages
 -----------------
