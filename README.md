@@ -38,7 +38,6 @@ I then cover various common use cases such as:
 10. Date pickers etc.
 ```
 
-Please see video below:
 <div align="center">
   <img src="https://github.com/thania-abrahams/cypress-testing/blob/main/readme-images/case-studies-list.gif" width="750" title="case studies list" />
 </div>
