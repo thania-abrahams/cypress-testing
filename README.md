@@ -24,7 +24,8 @@ I created this project to be used as scaffolding when writing tests for use case
 
 We begin with an e2e test using the "Cura Make An Appointment" page, that takes you through various ui interactions from logging in to submitting a form.
 I then cover various common use cases such as:
-
+<br />
+<br />
 ```
 1. Tricks with checkboxes
 2. Viewport specification and responsiveness
