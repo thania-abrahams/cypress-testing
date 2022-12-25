@@ -62,7 +62,7 @@ The Pages directory makes use of the Page Object Model wherein you can create cl
   <img src="readme-images/page-models.png" width="500" title="page object model">
 </div>
 
-In opposition to the Page Object Model one can make use of Custom Commands, it is really just a matter of preference.
+Or can make use of Custom Commands, it is really just a matter of preference. POM keeps things more organized whereas Custom Commands, imo, are simpler and quicker to use.
 
 <div align="center">
   <img src="readme-images/custom-commands.png" width="500" title="custom commands">
