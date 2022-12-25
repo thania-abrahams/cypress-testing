@@ -79,8 +79,13 @@ Reports are where the Mocha Awesome reports are stored, videos are included shou
 
 ```cypress run``` and not the ```cypress open``` command for automatic reports to run
 
-If all tests pass, you will find a report inside of the reports directory, open the report and right click to opejn with live server, and it will open up a voew of the report
+If all tests pass, you will find an html report inside of the reports directory. Open the report and right click to open with live server, and it will open up a view in a new tab. Please see below for an illustration:
 
+<br />
+<div align="center">
+  <img src="https://github.com/thania-abrahams/cypress-testing/blob/main/readme-images/mochawesome-report.gif" width="750" title="mochawesome report" />
+</div>
+<br />
 
 
 
