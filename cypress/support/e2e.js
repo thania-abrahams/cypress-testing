@@ -21,3 +21,17 @@ import "cypress-mochawesome-reporter/register";
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
+
+// beforeEach(() => {
+//   cy.session("mySession", () => {
+//     cy.visit(`${Cypress.env("demo")}/login`);
+
+//     cy.get("#userName").type("test");
+
+//     cy.get("#password").type("Test1234*");
+
+//     cy.get("#login").click();
+
+//     cy.url().should("contain", "profile");
+//   });
+// });

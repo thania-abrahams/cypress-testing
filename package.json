@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "scriptsComments": {
+  "scriptComments": {
     "specific baseUrls": "If you want to set specific baseUrls for different tests you can do that here using --config baseUrl=baseUrl",
+    "headless by default": "cypress run",
+    "headed set": "cypress run --browser chrome --headed --spec cypress/e2e/regression/*.js",
     "running specific suites": "cypress run --spec cypress/e2e/regression/*.js"
   },
   "scripts": {
