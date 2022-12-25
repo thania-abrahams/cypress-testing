@@ -489,7 +489,7 @@ describe.only("Preserve Login", () => {
     cy.session("mySession", () => {
       cy.visit(`${Cypress.env("demo")}/login`);
 
-      cy.get("#userName").type("test");
+      cy.get("#userName").type("wrongusername");
 
       cy.get("#password").type("Test1234*");
 
