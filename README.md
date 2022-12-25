@@ -73,6 +73,10 @@ Or can make use of Custom Commands, it is really just a matter of preference. PO
 
 Reports are where the Mocha Awesome reports are stored, videos and screenshots should this flag be set to TRUE, will be under the Screenshots and Videos directories.
 
+```yarn add -D cypress-mochawesome-reporter```
+
+```https://www.npmjs.com/package/cypress-mochawesome-reporter for cypress.config.js instructions```
+
 
 ### cypress/support
 -------------------
