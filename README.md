@@ -71,13 +71,17 @@ Or can make use of Custom Commands, it is really just a matter of preference. PO
 
 ### cypress/reports
 
-Reports are where the Mocha Awesome reports are stored, videos and screenshots should this flag be set to TRUE, will be under the Screenshots and Videos directories.
+Reports are where the Mocha Awesome reports are stored, videos are included should this flag be set to TRUE. If any tests fail, a screenshot will be made available.
 
 ```yarn add -D cypress-mochawesome-reporter```
 
 ```https://www.npmjs.com/package/cypress-mochawesome-reporter``` for cypress.config.js instructions
 
 ```cypress run``` and not the ```cypress open``` command for automatic reports to run
+
+If all tests pass, you will find a report inside of the reports directory, open the report and right click to opejn with live server, and it will open up a voew of the report
+
+
 
 
 ### cypress/support
