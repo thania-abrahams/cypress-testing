@@ -77,6 +77,8 @@ Reports are where the Mocha Awesome reports are stored, videos and screenshots s
 
 ```https://www.npmjs.com/package/cypress-mochawesome-reporter``` for cypress.config.js instructions
 
+```cypress run``` and not the ```cypress open``` command for automatic reports to run
+
 
 ### cypress/support
 -------------------
