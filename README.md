@@ -83,7 +83,7 @@ If all tests pass, you will find an html report inside of the reports directory.
 
 <br />
 <div align="center">
-  <img src="https://github.com/thania-abrahams/cypress-testing/blob/main/readme-images/mochawesome-report.gif" width="750" title="mochawesome report" />
+  <img src="https://github.com/thania-abrahams/cypress-testing/blob/main/readme-images/mochawesome-report.gif" width="500" title="mochawesome report" />
 </div>
 <br />
 
