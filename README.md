@@ -75,7 +75,7 @@ Reports are where the Mocha Awesome reports are stored, videos and screenshots s
 
 ```yarn add -D cypress-mochawesome-reporter```
 
-```https://www.npmjs.com/package/cypress-mochawesome-reporter for cypress.config.js instructions```
+```https://www.npmjs.com/package/cypress-mochawesome-reporter``` for cypress.config.js instructions
 
 
 ### cypress/support
