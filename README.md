@@ -129,5 +129,4 @@ As per the illustration shown below:
   <li> I also configure different env variables when testing different platforms, for db testing, and for setting a different viewport for mobile tests.
 </ul>
 
-### package.json
-----------------
+## package.json
