@@ -95,8 +95,21 @@ If all tests pass, you will find an html report inside of the reports directory.
 
 
 
-### cypress/support
--------------------
+## cypress/support/commands.js
+Write custom commands as shown in the image on line 73. Imports for various plugins/libraries as instructed per documentation.
+
+
+## cypress/support/e2e.js
+Imports for various plugins/libraries [related to e2e tests] as instructed per documentation.
+
+
+## cypress/support/exceptions.js
+Block of code to bypass CORS error
+
+
+## cypress/support/utils.js
+Imports for various plugins/libraries [related to e2e tests] as instructed per documentation.
+
 
 ### cypress.config.js
 ---------------------
