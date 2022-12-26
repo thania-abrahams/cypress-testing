@@ -112,7 +112,16 @@ Imports for various plugins/libraries [related to e2e tests] as instructed per d
 
 
 ## cypress.config.js
-Contains multiple configurations. I will explain the few that I have.
+To be used when defining various configurations. I will explain my setup. 
+
+As per the illustration shown below:
+
+<ul>
+  <li>I begin with a few imports as instructed by the documentation of various plugin/library/s</li>
+  <li>I then add a baseUrl [this can be added to the package.json file as well] for all of my e2e tests so that one no longer need to populate the entire URL for each ```it``` test case</li>
+  <li>I add tasks for the import downloads and mochawesome reporter plugins, for the mySQL implementation and for using faker to add mock user data.</li>
+  <li> I also configure different env variables when testing different platforms, for db testing, and for setting a different viewport for mobile tests.
+</ul>
 
 <br />
 <div align="center">
