@@ -111,8 +111,14 @@ Block of code to bypass CORS error
 Imports for various plugins/libraries [related to e2e tests] as instructed per documentation.
 
 
-### cypress.config.js
----------------------
+## cypress.config.js
+Contains multiple configurations. I will explain the few that I have.
+
+<br />
+<div align="center">
+  <img src="https://github.com/thania-abrahams/cypress-testing/blob/main/readme-images/config.gif" width="750" title="configuration file" />
+</div>
+<br />
 
 ### package.json
 ----------------
