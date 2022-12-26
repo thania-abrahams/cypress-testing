@@ -14,7 +14,7 @@ I created this project to be used as scaffolding when writing tests for use case
   <li>cypress/fixtures/data.json</li>
   <li>cypress/pages</li>
   <li>cypress/reports</li>
-  <ul>cypress/support
+  <ul>
     <li>cypress/support/commands.js</li>
     <li>cypress/support/e2e.js</li>
     <li>cypress/support/exceptions.js</li>
