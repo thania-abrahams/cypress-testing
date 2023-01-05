@@ -108,7 +108,22 @@ Block of code to bypass CORS error
 
 
 ## cypress/support/utils.js
-Imports for various plugins/libraries [related to e2e tests] as instructed per documentation.
+I created this directory for my viewport configuration when testing mobile vs desktop. Below is a function that checks if the viewport is less then the mobile viewport I configured in the ```cypress.config.js``` file. 
+
+<br />
+<div align="center">
+  <img src="https://github.com/thania-abrahams/cypress-testing/blob/main/readme-images/viewport-utils.png" width="750" title="configuration file" />
+</div>
+<br />
+
+
+This file is also where I am able to configure the default viewport width.
+
+<br />
+<div align="center">
+  <img src="https://github.com/thania-abrahams/cypress-testing/blob/main/readme-images/viewport-cypress-config.png" width="750" title="configuration file" />
+</div>
+<br />
 
 
 ## cypress.config.js
