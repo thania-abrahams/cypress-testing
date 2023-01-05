@@ -6,7 +6,6 @@ I created this project to be used as scaffolding when writing tests for use case
   <img src="readme-images/test-sites.png" width="500" title="test sites list">
 </div>
 
-
 ## Review of Principal Directories and/or Files
 
 <ul>
@@ -25,12 +24,12 @@ I created this project to be used as scaffolding when writing tests for use case
   <li>package.json</li>
 </ul>
 
-
 ## cypress/e2e/case-studies.cy
 
 We begin with an e2e test using the "Cura Make An Appointment" page, that takes you through various ui interactions from logging in to submitting a form.
 I then cover various common use cases such as:
 <br />
+
 ```
 1. Tricks with checkboxes
 2. Viewport specification and responsiveness
@@ -43,6 +42,7 @@ I then cover various common use cases such as:
 9. Drag and drop
 10. Date pickers etc.
 ```
+
 <br />
 <div align="center">
   <img src="https://github.com/thania-abrahams/cypress-testing/blob/main/readme-images/case-studies-list.gif" width="750" title="case studies list" />
@@ -50,15 +50,13 @@ I then cover various common use cases such as:
 <br />
 A few of these test suites require external plugins to run, you can find them inside of the "package.json" file.
 
-
 ## cypress/fixtures/data.json
 
 You can use fixtures to store sets of data ie. json objects, images, mp3s etc. and than access them when needed. Below is an example of using a fixture to intercept an API request:
-  
+
 <div align="center">
   <img src="readme-images/fixtures.png" width="500" title="fixture">
 </div>
-
 
 ## cypress/pages
 
@@ -74,16 +72,15 @@ Or can make use of Custom Commands, it is really just a matter of preference. PO
   <img src="readme-images/custom-commands.png" width="500" title="custom commands">
 </div>
 
-
 ### cypress/reports
 
 Reports are where the Mocha Awesome reports are stored, videos are included should this flag be set to TRUE. If any tests fail, a screenshot will be made available.
 
-```yarn add -D cypress-mochawesome-reporter```
+`yarn add -D cypress-mochawesome-reporter`
 
-```https://www.npmjs.com/package/cypress-mochawesome-reporter``` for cypress.config.js instructions
+`https://www.npmjs.com/package/cypress-mochawesome-reporter` for cypress.config.js instructions
 
-```cypress run``` and not the ```cypress open``` command for automatic reports to run
+`cypress run` and not the `cypress open` command for automatic reports to run
 
 If all tests pass, you will find an html report inside of the reports directory. Open the report and right click to open with live server, and it will open up a view in a new tab. Please see below for an illustration:
 
@@ -93,29 +90,27 @@ If all tests pass, you will find an html report inside of the reports directory.
 </div>
 <br />
 
-
-
 ## cypress/support/commands.js
+
 Write custom commands as shown in the image on line 73. Imports for various plugins/libraries as instructed per documentation.
 
-
 ## cypress/support/e2e.js
+
 Imports for various plugins/libraries [related to e2e tests] as instructed per documentation.
 
-
 ## cypress/support/exceptions.js
+
 Block of code to bypass CORS error
 
-
 ## cypress/support/utils.js
-I created this directory for my viewport configuration when testing mobile vs desktop. Below is a function that checks if the viewport is less then the mobile viewport I configured in the ```cypress.config.js``` file. 
+
+I created this file for my viewport configuration when testing mobile vs desktop. Below is a function that checks if the viewport is less then the mobile viewport I configured in the `cypress.config.js` file.
 
 <br />
 <div align="center">
   <img src="https://github.com/thania-abrahams/cypress-testing/blob/main/readme-images/viewport-utils.png" width="750" title="configuration file" />
 </div>
 <br />
-
 
 This file is also where I am able to configure the default viewport width.
 
@@ -125,9 +120,23 @@ This file is also where I am able to configure the default viewport width.
 </div>
 <br />
 
+And lastly in my package.json file I can configure another command with a viewport less then the default ie. less then 1400px, so that my test suite is returned `true` when using the `isMobile` function I wrote in the `utils` file.
+
+<br />
+<div align="center">
+  <img src="https://github.com/thania-abrahams/cypress-testing/blob/main/readme-images/mobile-package.png" width="750" title="configuration file" />
+</div>
+<br />
+
+<br />
+<div align="center">
+  <img src="https://github.com/thania-abrahams/cypress-testing/blob/main/readme-images/mobile-test-suite.png" width="750" title="configuration file" />
+</div>
+<br />
 
 ## cypress.config.js
-To be used when defining various configurations. I will explain my setup. 
+
+To be used when defining various configurations. I will explain my setup.
 
 As per the illustration shown below:
 
