@@ -484,12 +484,12 @@ describe("Drag and Drop", () => {
 Cypress.session.clearAllSavedSessions();
 
 //See cypress.config.js -----> experimentalSessionAndOrigin: true
-describe.only("Preserve Login", () => {
+describe("Preserve Login", () => {
   beforeEach(() => {
     cy.session("mySession", () => {
       cy.visit(`${Cypress.env("demo")}/login`);
 
-      cy.get("#userName").type("wrongusername");
+      cy.get("#userName").type("test");
 
       cy.get("#password").type("Test1234*");
 
@@ -716,7 +716,9 @@ describe("Data Post Demo", () => {
   });
 });
 
-describe("API Testing Demo", () => {
+let foo = "";
+
+describe.only("API Testing Demo", () => {
   it("get an authorization token from the API account", () => {
     cy.request("POST", `${Cypress.env("demo")}/Account/v1/GenerateToken`, {
       userName: "test",
@@ -725,6 +727,16 @@ describe("API Testing Demo", () => {
       const token = response.body.token;
 
       cy.wrap(token).as("token");
+
+      cy.get("@token").then((token) => {
+        foo = token;
+
+        cy.log(foo);
+      });
     });
+  });
+
+  it("test", () => {
+    cy.log(foo);
   });
 });

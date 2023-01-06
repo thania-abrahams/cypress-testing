@@ -11,8 +11,9 @@
   },
   "scripts": {
     "cypress:open": "cypress open --e2e --browser chrome",
-    "cypress:run": "cypress run --e2e --browser chrome",
-    "cypress:mobile": "cypress open --e2e --browser chrome --config baseUrl=http://uitestingplayground.com,viewportWidth=320"
+    "cypress:run": "cypress run --e2e --browser chrome --record --key 30f4e22f-8c8a-4e2b-9ecb-29e7dffe888f",
+    "cypress:mobile": "cypress open --e2e --browser chrome --config baseUrl=http://uitestingplayground.com,viewportWidth=320",
+    "cypress-dashboard-parallel": "cypress run --record --key 30f4e22f-8c8a-4e2b-9ecb-29e7dffe888f --parallel --spec cypress/e2e/parallel-tests/*.js --browser chrome"
   },
   "devDependencies": {
     "@4tw/cypress-drag-drop": "^2.2.2",

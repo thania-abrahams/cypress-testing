@@ -8,6 +8,7 @@ const { mysql } = require("mysql");
 const { faker } = require("@faker-js/faker");
 
 module.exports = defineConfig({
+  projectId: "wjofpf",
   e2e: {
     baseUrl: "https://katalon-demo-cura.herokuapp.com",
     setupNodeEvents(on, config) {
