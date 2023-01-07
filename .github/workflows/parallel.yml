@@ -16,6 +16,12 @@ jobs:
         # run 5 copies of the current job in parallel
         containers: [1, 2, 3, 4, 5]
     steps:
+    - name: Upload screenshots
+      uses: actions/upload-artifact@latest
+      if: failure()
+      with:
+          name: cypress-snapshots
+          path: cypress/screenshots
       - name: Checkout
         uses: actions/checkout@v2
 
