@@ -11,7 +11,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Install modules
-        uses: "node16"
+        run: yarn
+          uses: "node16"
+          main: "index.js"
       - name: Cypress
         uses: cypress-io/github-action@v3
         with:
