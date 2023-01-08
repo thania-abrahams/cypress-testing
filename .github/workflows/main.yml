@@ -3,9 +3,8 @@ name: Cypress Tests
 on: [push]
 
 jobs:
-  test:
-    name: Cypress run
-    runs-on: ubuntu-20.04
+  cypress-run:
+    runs-on: ubuntu-latest
     strategy:
       # when one test fails, DO NOT cancel the other
       # containers, because this will kill Cypress processes
