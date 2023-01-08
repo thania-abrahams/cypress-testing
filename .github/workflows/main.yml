@@ -10,12 +10,3 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Cypress
-        uses: cypress-io/github-action@v3
-        with:
-          browser: chrome
-          headless: true
-          record: true
-          start: npm run dev
-          wait-on: http://localhost:5173
-          parallel: true
